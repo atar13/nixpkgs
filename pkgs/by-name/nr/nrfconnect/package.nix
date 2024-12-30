@@ -9,7 +9,7 @@ let
 
   src = fetchurl {
     url = "https://nsscprodmedia.blob.core.windows.net/prod/software-and-other-downloads/desktop-software/nrf-connect-for-desktop/${lib.versions.major version}-${lib.versions.minor version}-${lib.versions.patch version}/nrfconnect-${version}-x86_64.appimage";
-    hash = "sha256-mdeCvkXOB6NBU59uqLSzh4W33oiNdS7Uv1HPivafujU=";
+    hash = "sha256-QEoKIdi8tlZ86langbCYJXSO+dGONBEQPdwmREIhZBA=";
     name = "${pname}-${version}.AppImage";
   };
 
